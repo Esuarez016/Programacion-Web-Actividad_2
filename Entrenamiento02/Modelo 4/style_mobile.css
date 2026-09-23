@@ -1,0 +1,39 @@
+@media (max-width: 40rem) {
+    .contenedor {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .bloque_1,
+    .bloque_2,
+    .bloque_3,
+    .bloque_4,
+    .bloque_5,
+    .bloque_6 {
+        grid-column: 1 / 2;
+    }
+
+    .bloque_1 {
+        grid-row: 1 / 2;
+    }
+
+    .bloque_2 {
+        grid-row: 2 / 3;
+    }
+
+    .bloque_3 {
+        grid-row: 3 / 4;
+    }
+
+    .bloque_4 {
+        grid-row: 4 / 5;
+    }
+
+    .bloque_5 {
+        grid-row: 5 / 6;
+    }
+
+    .bloque_6 {
+        grid-row: 6 / 7;
+    }
+}

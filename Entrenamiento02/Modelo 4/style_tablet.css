@@ -1,0 +1,38 @@
+@media (max-width: 64rem) {
+    .contenedor {
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .bloque_1 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+
+    .bloque_2 {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        background: #c8e6c9 ;
+    }
+
+    .bloque_3 {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+    }
+
+    .bloque_4 {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+        background: #ffe0b2;
+    }
+
+    .bloque_5 {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+    }
+
+    .bloque_6 {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+    }
+}
